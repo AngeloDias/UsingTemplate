@@ -3,16 +3,42 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="" />
+    <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,6 +160,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -142,17 +174,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603810841581</updated>
-      <workItem from="1603810842651" duration="187000" />
+      <workItem from="1603810842651" duration="346000" />
+      <workItem from="1603815287590" duration="4990000" />
     </task>
+    <task id="LOCAL-00001" summary="Starting project">
+      <created>1603811155449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603811155449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Starting project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="387" y="273" key="ComposerInitDialogKey" timestamp="1603817251738">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="387" y="273" key="ComposerInitDialogKey/0.0.1218.720@0.0.1218.720" timestamp="1603817251738" />
+    <state x="316" y="84" key="NewPhpClassDialog" timestamp="1603820435331">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="316" y="84" key="NewPhpClassDialog/0.0.1218.720@0.0.1218.720" timestamp="1603820435331" />
     <state x="111" y="6" key="SettingsEditor" timestamp="1603810919659">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1603810919659" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603811158040">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1603811158040" />
+    <state x="317" y="93" width="585" height="534" key="find.popup" timestamp="1603819673557">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="317" y="93" width="585" height="534" key="find.popup/0.0.1218.720@0.0.1218.720" timestamp="1603819673557" />
+    <state x="412" y="267" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603811109633">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="412" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1218.720@0.0.1218.720" timestamp="1603811109633" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1603819671078">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1603819671078" />
   </component>
 </project>

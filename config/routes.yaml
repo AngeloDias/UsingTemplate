@@ -1,3 +1,10 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+homepage:
+  path: /
+  controller: App\Controller\SiteController::indexAction
+  defaults:
+    path: /app
+    permanent: true
