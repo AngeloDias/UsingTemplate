@@ -23,61 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/nivo-lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/slicknav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/LineIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/LineIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/LineIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/LineIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/clients/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/clients/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/clients/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/clients/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/feature/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slide/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team/team-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team/team-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team/team-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/testimonial/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/contact-form-script.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/form-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.slicknav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/scrolling-nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/php/form-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SubmitFormController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +160,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angelo.santana\PhpstormProjects\using_templates\src\Controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -226,7 +181,6 @@
       <updated>1603810841581</updated>
       <workItem from="1603810842651" duration="346000" />
       <workItem from="1603815287590" duration="4990000" />
-      <workItem from="1603919315861" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project">
       <created>1603811155449</created>
@@ -255,18 +209,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting project" />
-    <MESSAGE value="Including the assets to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Including the assets to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting project" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="340" y="116" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603990925760">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="340" y="116" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1218.720@0.0.1218.720" timestamp="1603990925760" />
     <state x="387" y="273" key="ComposerInitDialogKey" timestamp="1603817251738">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="387" y="273" key="ComposerInitDialogKey/0.0.1218.720@0.0.1218.720" timestamp="1603817251738" />
-    <state x="316" y="84" key="NewPhpClassDialog" timestamp="1603820435331">
+    <state x="316" y="84" key="NewPhpClassDialog" timestamp="1603982401888">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="316" y="84" key="NewPhpClassDialog/0.0.1218.720@0.0.1218.720" timestamp="1603820435331" />
+    <state x="316" y="84" key="NewPhpClassDialog/0.0.1218.720@0.0.1218.720" timestamp="1603982401888" />
+    <state x="446" y="284" key="NewPhpFileDialog" timestamp="1603982417978">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="446" y="284" key="NewPhpFileDialog/0.0.1218.720@0.0.1218.720" timestamp="1603982417978" />
     <state x="111" y="6" key="SettingsEditor" timestamp="1603810919659">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
