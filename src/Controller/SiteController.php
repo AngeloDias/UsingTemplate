@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Email;
+use Swift_Mailer;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,7 +16,7 @@ use Symfony\Component\HttpFoundation\Request;
 // https://symfony.com/doc/current/mailer.html
 class SiteController extends AbstractController
 {
-    public function indexAction(Request $request)
+    public function indexAction(Request $request, Swift_Mailer $mailer)
     {
         $email = new Email();
         $form = $this->createForm(EmailType::class, $email);
@@ -44,15 +45,28 @@ class SiteController extends AbstractController
                     </html>
                     ";
 
-                $enviar_email = mail($destino, $assunto, $mensagem, $headers);
+                $message = (new \Swift_Message('Hello Email'))
+                    ->setFrom('angelossdias@gmail.com')
+                    ->setTo($email)
+                    ->setBody(
+                        $this->renderView(
+                            'confirmation/registration.html.twig',
+                            ['name' => 'Ângelo']
+                        ),
+                        'text/html'
+                    );
 
-                if($enviar_email){
-                    $mgm = "E-mail enviado com sucesso! <br> O link será enviado para o e-mail fornecido no formulário";
-                    echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
-                } else {
-                    $mgm = "ERRO AO ENVIAR E-MAIL!";
-                    echo "";
-                }
+                $mailer->send($message);
+
+//                $enviar_email = mail($destino, $assunto, $mensagem, $headers);
+
+//                if($enviar_email){
+//                    $mgm = "E-mail enviado com sucesso! <br> O link será enviado para o e-mail fornecido no formulário";
+//                    echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
+//                } else {
+//                    $mgm = "ERRO AO ENVIAR E-MAIL!";
+//                    echo "";
+//                }
             }
         }
 
