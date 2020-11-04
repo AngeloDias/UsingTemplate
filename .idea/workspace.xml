@@ -23,18 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/confirmation/registration.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +183,9 @@
       <updated>1603810841581</updated>
       <workItem from="1603810842651" duration="346000" />
       <workItem from="1603815287590" duration="4990000" />
+      <workItem from="1604414047442" duration="371000" />
+      <workItem from="1604425813340" duration="2702000" />
+      <workItem from="1604498143986" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project">
       <created>1603811155449</created>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811155449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: putting swiftmailer">
+      <created>1604414145705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604414145705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +221,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting project" />
+    <MESSAGE value="feat: putting swiftmailer" />
+    <MESSAGE value="feat: implementing the sending email through gmail SMTP" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing the sending email through gmail SMTP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="116" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603990925760">
@@ -241,10 +246,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1603810919659" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603811158040">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1604414148180">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1603811158040" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1604414148180" />
     <state x="317" y="93" width="585" height="534" key="find.popup" timestamp="1603819673557">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -253,9 +258,9 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="412" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1218.720@0.0.1218.720" timestamp="1603811109633" />
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1604403740251">
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1604498465963">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1604403740251" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1604498465963" />
   </component>
 </project>

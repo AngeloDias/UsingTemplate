@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Email;
 use Swift_Mailer;
+use Swift_Message;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\HttpFoundation\Request;
@@ -25,48 +26,21 @@ class SiteController extends AbstractController
             $form->submit($request->request->get($form->getName()));
 
             if($form->isSubmitted() && $form->isValid()) {
-                $email = $form->getData();
+                $email = $_POST['email'];
+                $first_name = $_POST['name'];
 
-//                $nome = $_POST['nome'];
-//                $email = $_POST['email'];
-
-                // É necessário indicar que o formato do e-mail é html
-                $headers  = 'MIME-Version: 1.0' . "\r\n";
-                $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-                $headers .= 'From: Ângelo de Sant\'Ana <assd@cin.ufpe.br>';
-                //$headers .= "Bcc: $EmailPadrao\r\n";
-
-                $destino = $email;
-                $assunto = "Confirmação de contato";
-                $mensagem = "
-                    <html>
-                        Olá, $ nome. Esse e-mail é para confirmar que foi você quem mandou seu contato para mim. Se não foi você, pode ignorar.
-                        Para confirmar basta clicar no link.
-                    </html>
-                    ";
-
-                $message = (new \Swift_Message('Hello Email'))
-                    ->setFrom('angelossdias@gmail.com')
+                $message = (new Swift_Message('Hello Email'))
+                    ->setFrom('meuemail@provedor.com')
                     ->setTo($email)
                     ->setBody(
                         $this->renderView(
                             'confirmation/registration.html.twig',
-                            ['name' => 'Ângelo']
+                            ['name' => $first_name]
                         ),
                         'text/html'
                     );
 
                 $mailer->send($message);
-
-//                $enviar_email = mail($destino, $assunto, $mensagem, $headers);
-
-//                if($enviar_email){
-//                    $mgm = "E-mail enviado com sucesso! <br> O link será enviado para o e-mail fornecido no formulário";
-//                    echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
-//                } else {
-//                    $mgm = "ERRO AO ENVIAR E-MAIL!";
-//                    echo "";
-//                }
             }
         }
 
