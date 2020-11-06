@@ -6,8 +6,11 @@ use App\Entity\Email;
 use Swift_Mailer;
 use Swift_Message;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\HttpFoundation\Request;
+
+//require dirname(__DIR__).'/vendor/autoload.php';
 
 // References:
 // https://symfony.com/doc/current/components/asset.html
@@ -17,6 +20,13 @@ use Symfony\Component\HttpFoundation\Request;
 // https://symfony.com/doc/current/mailer.html
 class SiteController extends AbstractController
 {
+    private function getCredentials()
+    {
+//        $sender_credentials_path = (new Dotenv())->bootEnv(dirname(__DIR__).'/.senderCredentials');
+//
+//        file_get_contents($sender_credentials_path);
+    }
+
     public function indexAction(Request $request, Swift_Mailer $mailer)
     {
         $email = new Email();
@@ -26,17 +36,17 @@ class SiteController extends AbstractController
             $form->submit($request->request->get($form->getName()));
 
             if($form->isSubmitted() && $form->isValid()) {
-                $email = $_POST['email'];
-                $first_name = $_POST['name'];
+                $email->setEmail($_POST['email']);
+                $email->setFirstName($_POST['name']);
                 $swift_message = new Swift_Message('Hello Email');
 
                 $message = ($swift_message)
-                    ->setFrom('meuemail@provedor.com')
-                    ->setTo($email)
+                    ->setFrom('angelossdias@gmail.com')
+                    ->setTo($email->getEmail())
                     ->setBody(
                         $this->renderView(
                             'confirmation/registration.html.twig',
-                            ['name' => $first_name]
+                            ['name' => $email->getFirstName()]
                         ),
                         'text/html'
                     );
