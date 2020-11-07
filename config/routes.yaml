@@ -8,3 +8,7 @@ homepage:
   defaults:
     path: /app
     permanent: true
+
+confirmation:
+  path: /confirmation
+  controller: App\Controller\ConfirmationController::confirmRegistering
