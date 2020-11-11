@@ -10,5 +10,5 @@ homepage:
     permanent: true
 
 confirmation:
-  path: /confirmation
+  path: /confirmation/{name}
   controller: App\Controller\ConfirmationController::confirmRegistering

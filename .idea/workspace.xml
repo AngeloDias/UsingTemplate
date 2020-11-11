@@ -23,9 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/img/confirmation/facebook-rounded-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/confirmation/human-avatar-in-a-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/confirmation/instagram-rounded-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/confirmation/twitter-rounded-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/confirmation/youtube-rounded-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/registration/pet-shop-symbol.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConfirmationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConfirmationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/confirmation/confirmation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirmation/confirmation.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/confirmation/registration.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirmation/registration.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,10 +166,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/registration" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angelo.santana\PhpstormProjects\using_templates\public\assets\img\registration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angelo.santana\PhpstormProjects\using_templates\public\assets\img\confirmation" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -179,7 +197,7 @@
       <workItem from="1603815287590" duration="4990000" />
       <workItem from="1603919315861" duration="2280000" />
       <workItem from="1604785309082" duration="2921000" />
-      <workItem from="1605102661146" duration="3702000" />
+      <workItem from="1605102661146" duration="10465000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project">
       <created>1603811155449</created>
@@ -188,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811155449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: adding template to confirmation page">
+      <created>1605107592253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605107592253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,27 +259,27 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1603810919659" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603811158040">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1605107593726">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1603811158040" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1605107593726" />
     <state x="427" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605104578958">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="427" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1218.720@0.0.1218.720" timestamp="1605104578958" />
-    <state x="339" y="99" width="627" height="570" key="find.popup" timestamp="1604786704771">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="317" y="93" width="585" height="624" key="find.popup" timestamp="1605119927822">
+      <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="317" y="93" width="585" height="534" key="find.popup/0.0.1218.720@0.0.1218.720" timestamp="1603819673557" />
+    <state x="317" y="93" width="585" height="624" key="find.popup/0.0.1218.720@0.0.1218.720" timestamp="1605119927822" />
     <state x="339" y="99" width="627" height="570" key="find.popup/0.0.1304.768@0.0.1304.768" timestamp="1604786704771" />
     <state x="412" y="267" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603811109633">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="412" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1218.720@0.0.1218.720" timestamp="1603811109633" />
-    <state x="290" y="44" width="720" height="724" key="search.everywhere.popup" timestamp="1604070186741">
-      <screen x="0" y="0" width="1304" height="768" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1605119930506">
+      <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1603819671078" />
+    <state x="271" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1605119930506" />
     <state x="290" y="44" width="720" height="724" key="search.everywhere.popup/0.0.1304.768@0.0.1304.768" timestamp="1604070186741" />
   </component>
 </project>

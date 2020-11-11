@@ -52,6 +52,11 @@ class SiteController extends AbstractController
 
                 $mailer->send($message);
             }
+
+            // Uma tela intermediária deve ficar aqui
+            /*return $this->forward('App\Controller\ConfirmationController::confirmRegistering', [
+                'name'  => $email->getFirstName()
+            ]);*/
         }
 
         return $this->render('base.html.twig', [
