@@ -23,15 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40652b80-4924-46f6-8355-46672292b568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ConfirmationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/confirmation/confirmation.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2020_10_56_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2020_10_56__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/confirmation/registration.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirmation/registration.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConfirmationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConfirmationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/confirmation/confirmation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirmation/confirmation.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +178,10 @@
       <workItem from="1603810842651" duration="346000" />
       <workItem from="1603815287590" duration="4990000" />
       <workItem from="1603919315861" duration="2280000" />
-      <workItem from="1604785309082" duration="2921000" />
+      <workItem from="1604785309082" duration="3324000" />
+      <workItem from="1604928103583" duration="2863000" />
+      <workItem from="1604954875872" duration="589000" />
+      <workItem from="1605050854084" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="Starting project">
       <created>1603811155449</created>
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811155449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: redirecting register to confirmation page">
+      <created>1604791241036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604791241036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting project" />
     <MESSAGE value="Including the assets to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Including the assets to project" />
+    <MESSAGE value="feat: redirecting register to confirmation page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: redirecting register to confirmation page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1604069421010">
@@ -238,10 +243,15 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="111" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1603810919659" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603811158040">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state x="216" y="100" key="Vcs.Push.Dialog.v2" timestamp="1604791243092">
+      <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1603811158040" />
+    <state x="216" y="100" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1604791243092" />
+    <state x="469" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604929032695">
+      <screen x="0" y="0" width="1304" height="768" />
+    </state>
+    <state x="469" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1304.768@0.0.1304.768" timestamp="1604929032695" />
     <state x="339" y="99" width="627" height="570" key="find.popup" timestamp="1604786704771">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
