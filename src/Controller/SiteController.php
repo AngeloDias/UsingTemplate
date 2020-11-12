@@ -37,7 +37,7 @@ class SiteController extends AbstractController
             if($form->isSubmitted() && $form->isValid()) {
                 $email->setEmail($_POST['email']);
                 $email->setFirstName($_POST['name']);
-                $swift_message = new Swift_Message('Hello Email');
+                $swift_message = new Swift_Message("Olá, {$email->getFirstName()}!");
 
                 $message = ($swift_message)
                     ->setFrom('angelossdias@gmail.com')

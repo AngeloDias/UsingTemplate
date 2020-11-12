@@ -12,3 +12,4 @@ homepage:
 confirmation:
   path: /confirmation/{name}
   controller: App\Controller\ConfirmationController::confirmRegistering
+  methods: GET
